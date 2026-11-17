@@ -73,6 +73,8 @@ scripts: GPU/TP selection, port and GPU-memory checks, background launch,
 PID/log files, health waiting, and stop/replace handling. Model-specific
 virtualenv, overlay, and patch setup is intentionally out of scope; put the
 desired `vllm` on `PATH`, pass `--vllm`, or export the environment first.
+See [`serve-examples.md`](serve-examples.md) for the Qwen3.8 Flash Next
+deployment profiles and their measured 7-run accuracy.
 
 ```bash
 bash serve_vllm_model.sh \
